@@ -1,0 +1,26 @@
+{
+  "name": "bymiles-pipeline-trigger",
+  "version": "1.0.0",
+  "description": "By Miles Github action for triggering AWS Pipeline.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/by-miles/bymiles-pipeline-trigger.git"
+  },
+  "keywords": [
+    "action"
+  ],
+  "author": "bymiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/by-miles/bymiles-pipeline-trigger/issues"
+  },
+  "homepage": "https://github.com/by-miles/bymiles-pipeline-trigger#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "aws-sdk": "^2.834.0"
+  }
+}
