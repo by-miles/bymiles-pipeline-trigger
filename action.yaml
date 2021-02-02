@@ -1,0 +1,18 @@
+name: "By Miles AWS CodePipeline Trigger"
+description: "Trigger a pipeline in AWS CodePipeline from GitHub Actions"
+inputs:
+  aws-access-key:
+    description: "AWS Access Key ID to trigger CodePipeline"
+    required: true
+  aws-secret-key:
+    description: "AWS Secret Key to trigger CodePipeline"
+    required: true
+  pipeline-name:
+    description: "The name of the pipeline"
+    required: true
+runs:
+  using: "node12"
+  main: "./index.js"
+branding:
+  icon: "cloud"
+  color: "orange"
